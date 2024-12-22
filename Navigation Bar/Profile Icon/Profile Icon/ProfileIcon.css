@@ -1,0 +1,29 @@
+/* src/components/ProfileIcon.css */
+
+.profile-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Change cursor to a hand */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 8px;
+    border: 2px solid #ddd;
+    transition: transform 0.2s ease;
+}
+
+.profile-name {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.profile-icon:hover .profile-picture {
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}

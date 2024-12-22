@@ -1,0 +1,30 @@
+//import"./App.css";
+
+function App(){
+    return (
+        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+            <Row>
+                <Col sm={3} id="sidebar">
+                    <div className="sidebar-title">
+                        <h4></h4>
+                    </div>
+                    <Nav variant="pills" className="flex-column">
+                        <Nav.Item>
+                            <Nav.Link eventKey="first">Project 1</Nav.Link>
+                        
+                        </Nav.Item>
+                    </Nav>
+                </Col>
+                <Col sm={9}>
+                    <Tab.Content>
+                        <Tab.Pane eventKey="first">
+                            first Content
+                        </Tab.Pane>
+                    </Tab.Content>
+                </Col>
+            </Row>
+        </Tab.Container>
+    );
+}
+
+export default App;

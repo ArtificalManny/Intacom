@@ -1,0 +1,22 @@
+import React, { useEffect } from "react";
+import { firebaseApp } from "../firebase"
+
+export default ({ changeToFalse }) => {
+
+    const [firstName, setFirstName] = useState("");
+    const[lastName, setLastName] = useState("")
+
+    const onSubmit = () => {
+        const uid = firebaseApp.auth().currentUser.uid;
+        const 
+    }
+
+    return {
+        <div>
+            <div onClick={() => changeToFalse()}>Go Back</div>
+            <input value="First Name" onChange={event=>setFirstName(event.target.value)}/>
+            <input value="Last Name" onChange={event=>setLastName(event.target.value)}/>
+            <button onClick={editProfile}>Submit</button>
+        </div>
+    }
+}

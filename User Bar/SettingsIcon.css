@@ -1,0 +1,13 @@
+/* src/components/SettingsIcon.css */
+
+.settings-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer; /* Changes cursor to hand */
+    transition: transform 0.2s ease; /* Adds a slight animation on hover */
+}
+
+.settings-icon:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}

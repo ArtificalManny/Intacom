@@ -1,0 +1,64 @@
+/* App.css */
+.app-container {
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.post-creator {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+}
+
+.post-creator textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.post-creator button {
+    padding: 10px 15px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.post-text {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.post-timestamp {
+    font-size: 0.85em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.like-button {
+    color: #1877f2;
+    border: none;
+    background: none;
+    font-size: 1em;
+    cursor: pointer;
+}

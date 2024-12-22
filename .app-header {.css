@@ -1,0 +1,15 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #2C1E48; /* This is your preferred background color */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
